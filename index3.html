@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+     <title>Aprendendo Javascript</title>
+</head>
+<body>
+
+    <script>
+
+      /* function retornaSexo(sexo){
+            if(sexo === 'M'){
+                return 'Masculino';
+            } else if (sexo == 'F'){
+                return 'Feminino';
+            } else{
+                return 'Outros';
+            }
+       }
+     */
+     function retornaSexo(sexo){
+         switch (sexo){
+             case 'M':
+             return 'Masculino';
+             case 'F':
+             return 'Feminino';
+             default:
+             return 'Outros'
+         }
+     }
+       var sexo = retornaSexo('M');
+       console.log(sexo);
+    </script>
+</body>
+</html>
